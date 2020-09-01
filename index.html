@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbody">
+        <nav class="nvabar">
+            <div class="logo">
+                <img src="gymlogo.jpg" alt="logo">
+            </div>
+            <ul class="nav-list">
+                
+                <li><a href="">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Service">Sevices</a></li>
+                
+            </ul>
+            <div id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="text" id="membership">
+            <h1>BUILD YOUR BODY STRONG</h1>
+            <h1>WITH US</h1>
+            <h1>THE IRON GYM*</h1>
+            <p>Get your body in perfect shape in only 6 month start our membership with <br> with free subscribtion for 1 month</p>
+            <div class="btn">
+                <button>Get Membership</button>
+                <button>Start Free trial</button>
+            </div>
+        </div>
+       
+    </div>
+    <div id="side-nav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="features"><h2>Our unique features</h2></div>
+    <div class="women" id="about" data-aos="fade-left">
+        <div class="womenimg">
+            <img src="womengym.jpg" alt="">
+        </div>
+        <div class="womentext" >
+            <h1>Specail Batches for Women*</h1>
+            <p>We are glad to anounc that we are conducting seprate batches for women ,for the safety of women we take all the action which we can do also there whould be 10% off for women who joining first time Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam harum eligendi sint dolorem quasi</p>
+        </div>
+    
+    </div>
+    <div class="women" id="women-2" data-aos="fade-right">
+        <div class="womenimg">
+            <img src="tainer2.jpg" alt="">
+        </div>
+        <div class="womentext">
+            <h1>Profhesnal Trainers*</h1>
+            <p>We have profhenaly tainerd tainer who have experince of more than 4 years who will pay attention at you at every time  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam harum eligendi sint dolorem quasi quia itaque, neque animi atque, tenetur est eos doloremque beatae! Dolorum, delectus nostrum. Dignissimos, similique! </p>
+        </div>
+        
+    </div>
+    <div class="women" data-aos="fade-left">
+        <div class="womenimg">
+            <img src="treadmil.jpg" alt="">
+        </div>
+        <div class="womentext">
+            <h1>World Class Equipments*</h1>
+            <p>We have  tones of euiments from very basic to adavance program and electronics and electrical equpments Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam harum eligendi sint dolorem quasi quia itaque, neque animi atque, tenetur est eos doloremque beatae! Dolorum, delectus nostrum. Dignissimos, similique! </p>
+        </div>
+        
+    </div>
+     <span><h1 class="servhead" id="Service">Services</h1></span>
+    <div class="services" data-aos="fade-right">
+        <div class="servimg">
+            <img src="tainer.jpg" alt="">
+        </div>
+        <div class="servtext" data-aos="fade-left">
+           <img src="" alt="">
+           <ul  data-aos="fade-left">
+               <li><i class="fa fa-check"></i>Gym</li>
+               <li><i class="fa fa-check"></i>Swmming pool</li>
+               <li><i class="fa fa-check"></i>Zhumba</li>
+               <li><i class="fa fa-check"></i>Yoga</li>
+               <li><i class="fa fa-check"></i>Exercises</li>
+               <li><i class="fa fa-check"></i>wieght lose</li>
+               <li><i class="fa fa-check"></i>wieght gain</li>
+           </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="links">
+       <ul class="foot-list">
+           <li><a href="#">About</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Location</a></li>
+           <li><a href="#">Visit us</a></li>
+       </ul>
+       <p> &copy; all rights reserved Iron Gym 2020*</p>
+       <p>Jaydeep Shelake</p>
+    </div>
+    <div class="foot-contact">
+        <h3>Contact us</h3>
+        <input type="email"  placeholder="Enter Email">
+        <button type="submit">Submit</button>
+    </div>
+    <div class="foot-icons">
+        <h3>Follow us on</h3>
+        <p>Know every thing about us</p>
+        <div class="icon">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-github"></i>
+        </div>
+    </div>
+    </footer>
+     <p class="lastpara" style="text-align: center; opacity: 0.6; font-size: 17px; color: black; font-weight: 600;">
+         &copy; Iron gym all rights resrved 2020. <br>
+         website devloped & maintained by Jaydeep Shelake
+        </p>
+    </div>
+    <script>
+        let burger=document.getElementById('burger')
+        let sideNav=document.getElementById('side-nav')
+        sideNav.style.right="-251px";
+        burger.onclick=()=>{
+            if(sideNav.style.right=="-251px"){
+                sideNav.style.right="0";
+            }
+            else{
+                sideNav.style.right="-251px";
+            };
+        };
+        sideNav.style.right="-251px";
+        sideNav.onclick=()=>{
+            if(sideNav.style.right=="-251px"){
+                sideNav.style.right="0";
+            }
+            else{
+                sideNav.style.right="-251px";
+            }
+        };
+    </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+        offset:200,
+        duration:1000,
+       });
+     </script>
+</body>
+</html>
